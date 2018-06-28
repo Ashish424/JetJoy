@@ -80,7 +80,7 @@ public class Interactable: MonoBehaviour{
     }
     
         
-    public virtual Vector2 getCenter(){
+    public virtual Vector2 getTriggerVolumeCenter(){
         return mySizeTrigger2D.bounds.center;
       
     }

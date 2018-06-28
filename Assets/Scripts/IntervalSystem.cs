@@ -255,7 +255,7 @@ public class IntervalSystem : MonoBehaviour{
 		//play mode only drawing
 		Gizmos.color = Color.blue;
 		for (int i = 0; i < obstacleActors.Count; ++i){
-			Gizmos.DrawWireCube(obstacleActors[i].getCenter(), obstacleActors[i].getSize());
+			Gizmos.DrawWireCube(obstacleActors[i].getTriggerVolumeCenter(), obstacleActors[i].getSize());
 
 		}
 

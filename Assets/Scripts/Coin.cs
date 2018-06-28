@@ -19,6 +19,7 @@ public class Coin:MonoBehaviour{
 
     IEnumerator onDeath(){
         
+        
         Destroy(GetComponent<CircleCollider2D>());
         Destroy(GetComponent<SpriteRenderer>());
         myAudioSource.Play();

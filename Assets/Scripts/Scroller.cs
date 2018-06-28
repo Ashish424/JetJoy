@@ -27,7 +27,9 @@ public class Scroller:MonoBehaviour{
         distance = Mathf.Repeat(distance,repeatLength);
 
         //purely visual so using transform to move it in Update.
-        transform.localPosition = initPosition+transform.right*-distance;
+        transform.localPosition = initPosition+new Vector3(-distance,0,0);
+        
+
     }
     
     

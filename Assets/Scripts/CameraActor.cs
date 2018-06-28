@@ -12,6 +12,7 @@ public class CameraActor : MonoBehaviour{
 		myTransform = transform;
 		myCamera = GetComponent<Camera>();
 
+		
 
 	}
 
